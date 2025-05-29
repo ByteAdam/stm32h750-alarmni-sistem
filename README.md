@@ -104,8 +104,4 @@ Podatki (US, T-xx, stanja LED, pritiski gumbov) se pošiljajo prek UART3 (115200
 - Oblačne storitve (MQTT, HTTP POST)  
 - Mobilni UI (React Native / PWA)
 
----
 
-## Licenca
-
-Projekt je licenciran pod **MIT License** – prosto ga prilagodi in nadgradi.
