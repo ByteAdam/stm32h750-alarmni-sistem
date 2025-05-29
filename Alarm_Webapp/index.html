@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <title>Alarmni sistem – nadzor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="neutral">
+<div id="app">
+  <header>
+    <h1>Nadzor alarmnega sistema</h1>
+    <button id="connect-btn">Poveži</button>
+  </header>
+
+  <section id="controls">
+    <div id="status" class="status">Odklopljeno</div>
+
+    <div class="sensor">
+      <h2>Senzor</h2>
+      <span id="distance">--</span> cm
+    </div>
+
+    <!-- Gumbi so odstranjeni -->
+
+    <div class="leds">
+      <h2>LED-diode</h2>
+      <div class="led red off"   id="led1"></div>
+      <div class="led red off"   id="led2"></div>
+      <div class="led red off"   id="led3"></div>
+      <div class="led green off" id="led4"></div>
+    </div>
+
+    <div class="log">
+      <h2>Serijski dnevnik</h2>
+      <textarea id="log" readonly></textarea>
+      <button id="export-serial">Shrani CSV</button>
+    </div>
+
+    <div class="events">
+      <h2>Dogodki</h2>
+      <textarea id="events" readonly></textarea>
+      <button id="export-events">Shrani CSV</button>
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
