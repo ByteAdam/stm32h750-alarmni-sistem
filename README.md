@@ -23,7 +23,8 @@ Ta sistem kontinuirano meri razdaljo s HC-SR04 ultrazvočnim senzorjem. Če se z
 
 Podatki (US, T-xx, stanja LED, pritiski gumbov) se pošiljajo prek UART3 (115200 baud) v PuTTY ali WebSerial, kjer jih Web aplikacija prikaže v realnem času. Podpira izvoz serijskega in event loga v CSV.
 
-[![Posnetek delovanja]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/KxlVeEdbE8g))
+[![Posnetek delovanja](https://img.youtube.com/vi/KxlVeEdbE8g/maxresdefault.jpg)](https://youtu.be/KxlVeEdbE8g)
+
 
 
 ---
