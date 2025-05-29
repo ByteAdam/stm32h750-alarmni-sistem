@@ -6,7 +6,8 @@ Projekt: alarmni sistem na STM32H750 z ultrazvočnim senzorjem, LED signalizacij
 
 ## Vsebina
 
-- [Opis projekta](#opis-projekta)  
+- [Opis projekta](#opis-projekta)
+- [Uporaba](#uporaba)
 - [Funkcionalnosti](#funkcionalnosti)  
 - [Strojna oprema in povezave](#strojna-oprema-in-povezave)  
 - [Gradnja in zagon](#gradnja-in-zagon)  
@@ -21,6 +22,13 @@ Projekt: alarmni sistem na STM32H750 z ultrazvočnim senzorjem, LED signalizacij
 Ta sistem kontinuirano meri razdaljo s HC-SR04 ultrazvočnim senzorjem. Če se zazna predmet bližje kot 100 cm, se sproži 60 s odštevanje z večfazno signalizacijo na trih rdečih LED-ih in buzzerju. Uporabnik lahko alarm deaktivira z 6× pritiskom na gumb 1. Če se ne deaktivira, preide v neprekinjen alarm in po minuti pošlje obvestilo alarmni agenciji.
 
 Podatki (US, T-xx, stanja LED, pritiski gumbov) se pošiljajo prek UART3 (115200 baud) v PuTTY ali WebSerial, kjer jih Web aplikacija prikaže v realnem času. Podpira izvoz serijskega in event loga v CSV.
+
+---
+
+## Uporaba
+
+Potrebno je prenesti cel projekt, ali pa samo Main.c in slediti navodilom v .pdf dokumentu, kako se setupa .IOC
+Nato je potrebno prenesti imenik Alarm_Webapp, opdreti terminal na lokaciji tega imenika ter zagnati webapp z python3 -m http.server. Nato bo Webapp dostopen na localhostu.
 
 ---
 
