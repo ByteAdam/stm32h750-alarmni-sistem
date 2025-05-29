@@ -1,5 +1,3 @@
-# stm32h750-alarmni-sistem
-
 # STM32H7 Alarmni Sistem
 
 Projekt: alarmni sistem na STM32H750 z ultrazvočnim senzorjem, LED signalizacijo, buzzerjem, tipkami, DMA UART sprejemom in Web Serial API vmesnikom.
