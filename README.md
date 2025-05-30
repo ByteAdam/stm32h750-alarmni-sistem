@@ -1,4 +1,4 @@
-# STM32H7 Alarmni Sistem
+# STM32H750 Alarmni Sistem
 
 Projekt: alarmni sistem na STM32H750 z ultrazvočnim senzorjem, LED signalizacijo, buzzerjem, tipkami, DMA UART sprejemom in Web Serial API vmesnikom.
 
@@ -98,10 +98,10 @@ Nato je potrebno prenesti imenik Alarm_Webapp, opdreti terminal na lokaciji tega
 
 ## Dnevnik dogodkov & izvoz CSV
 
-- `ALARM_TRIGGER` → alarm sprožen (rdeče utripanje)  
+- `ALARM_SPROZEN` → alarm sprožen (rdeče utripanje)  
 - `ALARM_MAIL`    → agencija obveščena (oranžno ozadje)  
-- `ALARM_DEFUSED` → alarm deaktiviran (zelena)  
-- `CODE_WRONG`    → napačna koda (napačna koda, števči reset)  
+- `ALARM_DEAKTIVIRAN` → alarm deaktiviran (zelena)  
+- `NAPACNA_KODA`    → napačna koda (napačna koda, števči reset)  
 - **G1–G4**       → stanje pritiskov gumbov  
 - **US:**         → meritve razdalje  
 - **T-xx s**      → odštevanje
